@@ -10,11 +10,17 @@
 header {
   text-align: center;
   background-image: url('banner.jpg');
+  filter: grayscale();
+  transition: 4s;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 90vh;
   background-position:center;
   background-attachment: fixed;
-  opacity: .6;
+    opacity: .8;
+}
+
+header:hover {
+  filter:none;
 }
 
 
