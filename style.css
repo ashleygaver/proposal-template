@@ -16,7 +16,7 @@ header {
   min-height: 90vh;
   background-position:center;
   background-attachment: fixed;
-    opacity: .8;
+  opacity: .8;
 }
 
 header:hover {
@@ -45,7 +45,7 @@ body{
 
 h1 {
   color: white;
-  margin-top: 30vh;
+  margin-top: 30px;
   font-size: 48px;
   font-weight:400;
 }
